@@ -1,1 +1,2 @@
-# check-list-test-task
+Тестовое задание на позицию frontend разработчик компании stworka. 
+Верстка блока "Чеклист". Макет из Figma без использования JS/TS + pixel perfect.
