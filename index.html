@@ -13,13 +13,18 @@
 <body class="body">
   <div class="check-list">
     <div class="content-wrapper">
-      <div class="progress-bar"></div>
+      <div class="progress-bar-wrapper">
+        <progress value="100" min="0" max="100" style="visibility:hidden;height:0;width:0;">100%</progress>
+        <p class="progress-step">0/7</p>
+      </div>
       <div class="content-block">
         <div class="content-name">Чеклист</div>
         <div class="content-status">Выполнено: 0 из 7 действий</div>
         <div class="content-next-task">Следующее действие: Созвониться с клиентом до 23.05.24 12:00</div>
       </div>
-      <button class="button">Открыть чеклист</button>
+      <button class="button">
+        <p>Открыть чеклист</p>
+      </button>
     </div>
   </div>
 </body>
